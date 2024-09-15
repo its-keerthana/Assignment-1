@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .error{color:red}
+    .success{color:green}
+</style>
+<body>
+    <header>
+    <nav>
+        <a href="index.html" class="logo">Musix</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a style="margin: 15px;" href="about-us.html">About Us</a></li>
+            <a class="button" href="register.html">Register</a>
+        </ul>
+    </nav>
+    </header>
+    
+    <form id="form">
+        <h2>Music Club Registration</h2>        
+        <p><label for="name" class="floatLabel">Name</label>        
+        <input id="name" name="name" type="text">        
+        <span id="nameError"></span>        
+        </p>        
+        <p><label for="email" class="floatLabel">Email</label>        
+        <input id="email" name="email" type="text">        
+        <span id="emailError"></span>        
+        </p>        
+        <p><label for="phone" class="floatLabel">Phone Number</label>        
+        <input id="phone" name="phone" type="text">        
+        <span id="phoneError"> </span>        
+        </p>        
+        <p><label for="password" class="floatLabel">Password</label> <input id="password" name="password" type="password">        
+        <span id="passwordError"></span>        
+        </p>   
+        <p><label for="confirmPassword" class="floatLabel">Confirm Password</label><input id="confirmPassword" name="conPassword" type="password">        
+            <span id="conPasswordError"></span></p>
+        <p><input type="submit" value="Register" id="submit">       
+        </p>
+        <p id="formSuccess"></p>
+        <!-- Registeration form ends here -->
+        <!-- footer starts here -->
+</form>
+<footer class="footer">
+    <div class="links">    
+    <ul>    
+    <h4 style="margin-left: 18px;font-size: 18px;">Support Links</h4>    
+    <li><a href="#">Privacy Policy</a></li>    
+    <li><a href="#">Terms & Conditions</a></li>    
+    <li> <a href="about-us.html">Contact Us</a></li>    
+    </ul> </div>
+    <ul class="address">
+    <h4 style="font-size: 18px">Address</h4>   
+    <li>7/23, Standard Street, </li>        
+    <li>Oakland, California, </li>    
+    <li>USA.</li>    
+    <li>Email:Musix@business.com</li>    
+    <li> Ph: +1510 789 5609 </li>    
+    </ul>    </div>
+    <div class="copyright">
+    <p>&copy; Copyright | 2024 | All Rights Reserved</p>
+    </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
