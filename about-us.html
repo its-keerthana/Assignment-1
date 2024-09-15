@@ -62,5 +62,13 @@
     <p>&copy; Copyright | 2024 | All Rights Reserved</p>
     </div>
     </footer>
+    <script>
+let contactForm = document.getElementById("contactForm")
+contactForm.addEventListener('submit',function(e){
+    e.preventDefault();
+    window.location.href= "thanks.html";
+    contactForm.reset();
+});
+</script>
 </body>
 </html>
